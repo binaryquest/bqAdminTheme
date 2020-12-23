@@ -1,0 +1,46 @@
+{
+  "name": "bqadmintheme",
+  "version": "1.0.0",
+  "description": "bootstrap 5 based admin theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run development",
+    "development": "webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "webpack --config=node_modules/laravel-mix/setup/webpack.config.js  --progress --hide-modules --watch ",
+    "hot": "node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binaryquest/bqAdminTheme.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "admin",
+    "theme"
+  ],
+  "author": "Binary Quest",
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap": "^5.0.0-alpha1",
+    "laravel-mix": "^6.0.2",
+    "laravel-mix-nunjucks": "^0.3.0",
+    "postcss": "^8.1.14",
+    "resolve-url-loader": "^3.1.0",
+    "sass": "^1.26.9",
+    "sass-loader": "^8.0.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "bugs": {
+    "url": "https://github.com/binaryquest/bqAdminTheme/issues"
+  },
+  "homepage": "https://github.com/binaryquest/bqAdminTheme#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "@popperjs/core": "^2.6.0",
+    "popper": "^1.0.1",
+    "popper.js": "^1.16.1"
+  }
+}
