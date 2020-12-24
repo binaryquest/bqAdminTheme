@@ -6116,6 +6116,7 @@ body {
   font-size: 0.875rem;
 }
 
+/** 1. Variables  **/
 /*
    * Sidebar
    */
@@ -6161,7 +6162,7 @@ body {
 }
 
 .sidebar .nav-link.active {
-  color: #007bff;
+  color: #25832d;
 }
 
 .sidebar .nav-link:hover .feather,
