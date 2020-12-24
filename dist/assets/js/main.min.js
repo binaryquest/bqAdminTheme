@@ -1,9 +1,1 @@
-/******/ (() => { // webpackBootstrap
-/*!*******************************!*\
-  !*** ./src/assets/js/main.js ***!
-  \*******************************/
-window.onload = function () {
-  console.log("test");
-};
-/******/ })()
-;
+window.onload=function(){console.log("test")};

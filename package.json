@@ -1,6 +1,6 @@
 {
-  "name": "bqadmintheme",
-  "version": "0.1.1",
+  "name": "bqadmin-bs5-theme",
+  "version": "1.0.1",
   "description": "bootstrap 5 based admin theme",
   "main": "index.js",
   "scripts": {

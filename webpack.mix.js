@@ -3,6 +3,7 @@ require('laravel-mix-nunjucks');
 
 mix.njk('src/', 'dist/', {
    watch: true,
+   ext: '.html',
    data: {      
    },
    block: 'content',   
@@ -31,4 +32,4 @@ mix
    .minify("dist/assets/css/bootstrap.css")
    .minify("dist/assets/css/app.css")
    .minify("dist/assets/js/main.js")
-   .minify("dist/assets/js/app.js");
+   .minify("dist/assets/js/app.js").disableNotifications();
