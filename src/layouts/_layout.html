@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,41 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Binary Quest">
-    <title>{{ title }} - bqAdmin Theme</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet" crossorigin="anonymous">
-    <!-- Custom styles for this template -->
-    <link href="assets/css/app.css" rel="stylesheet">
+    <title>{{ title }} - bqAdmin</title>
+    {% block stylesfirst %}{% endblock %}
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    {% block styles %}{% endblock %}
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
 </head>
-
 <body>
-    <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
-        <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Binary Quest</a>
-        <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse"
-            data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
-        <ul class="navbar-nav px-3">
-            <li class="nav-item text-nowrap">
-                <a class="nav-link" href="#">Sign out</a>
-            </li>
-        </ul>
-    </header>
-
-    <div class="container-fluid">
-        <div class="row">
+    <div id="app">
+        <div id="sidebar" class='active'>
             {% include "layouts/_sidebar.html" %}
-
-            {% block content %}{% endblock %}
-
-        </div>
+        </div>        
+        <div id="main"> 
+            {% include "layouts/_top-header.html" %}
+            <main class="ms-sm-auto px-4">           
+                {% block content %}{% endblock %}
+            </main> 
+            <footer>
+                <div class="footer d-flex clearfix text-muted">
+                    <div class="container-fluid">
+                        <div class="row justify-content-end">
+                            <div class="col-md-6">
+                                <p>2021 &copy; bqAdmin Theme, Powerd by <a href="http://binaryquest.com" target="_blank">Binary Quest</a></p>
+                            </div>
+                        </div>
+                    </div>                   
+                </div>
+            </footer>           
+        </div>        
     </div>
-
-    <script src="assets/js/app.js" crossorigin="anonymous"></script>
+    <script src="assets/js/app.js"></script>
     {% block js %}{% endblock %}
+    <script src="assets/js/main.js"></script>
 </body>
-
 </html>
