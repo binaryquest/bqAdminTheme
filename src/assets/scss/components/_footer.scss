@@ -4,8 +4,8 @@ footer {
         left: 0;
         bottom: 0;
         width: 100%;
-        background-color: #fff;        
-        border-top: 1px solid #b8b8b8;
+        background-color: map-get($theme-colors, light-0);      
+        border-top: 1px solid map-get($theme-colors, light);
         padding: 1rem;
         p{
             margin: 0;

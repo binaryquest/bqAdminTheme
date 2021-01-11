@@ -1,7 +1,7 @@
 .navbar {
     height:70px;
     padding: 1.5rem;
-    background-color: #fff;
+    background-color: map-get($theme-colors, light-0);;
     
     &.navbar-header {
         li {
@@ -21,7 +21,7 @@
                         line-height: normal;
                     } 
                     &:hover {
-                        background-color: #e1e1e1;
+                        background-color: map-get($theme-colors, light);;
                     }
                 }
             }
@@ -36,7 +36,7 @@
             }
         }
         .dropdown > a {
-            color:map-get($theme-colors, 'dark' );
+            color:map-get($theme-colors, 'secondary' );
             font-weight: 600;                       
             &:after {
                 display:none;

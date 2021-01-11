@@ -16,7 +16,7 @@
     position: fixed;
     top: 0;
     z-index: 10;
-    background-color: rgb(182, 88, 158);
+    background-color: map-get($theme-colors, primary);
     bottom: 0;
     border-right: 1px solid #eee;
     box-shadow: 0 0 10px #ececec;
@@ -36,7 +36,7 @@
         right: 0;
         top: .5rem;
         display:none;
-        color: #fff;
+        color: map-get($theme-colors, light-0);
     }
     #sidebarMenu {
         padding-left: 0;
@@ -51,7 +51,7 @@
                 display: flex;
                 align-items: center;
                 transition: all .5s;
-                color: #ccc;
+                color: map-get($theme-colors, light);
                 opacity: 0.8;
                 & > span {
                     display: inline-flex;
@@ -59,21 +59,21 @@
                     flex:1;
                 }   
                 &:hover {
-                    color: rgb(224, 102, 178);
+                    color: map-get($theme-colors, success);
                     opacity: 1;
-                    background-color:rgb(133, 39, 128);
+                    background-color: map-get($theme-colors, secondary);
                 }             
             }  
             .active {
-                background-color: #e8f3ff;
-                color: rgb(224, 102, 178)!important;
+                background-color: map-get($theme-colors, light);
+                color: map-get($theme-colors, secondary) !important;
             }
         }        
 
         .sidebar-heading {
             font-size: .8rem;
             font-weight: 600;
-            color: rgb(217, 255, 1);
+            color: map-get($theme-colors, success);
             text-transform: uppercase;
         }
         .submenu {
@@ -86,7 +86,7 @@
                 a {
                     padding: .3rem 1.3rem;
                     display: block;
-                    color: #ecebeb;
+                    color: map-get($theme-colors, light);
                     font-size: .80rem;
                     font-weight: 500;
                     letter-spacing: .5px;

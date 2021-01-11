@@ -9,13 +9,13 @@
     .avatar-content {
         width: 32px;
         height: 32px;
-        color: #fff;
+        color:map-get($theme-colors, light-0);
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: .875rem;
         svg, i {
-            color: #fff;
+            color:map-get($theme-colors, light-0);
             font-size: 1rem;
             height: 1rem;
         }
@@ -32,7 +32,7 @@
         height: .7rem;
         position: absolute;
         border-radius: 50%;
-        border: 1px solid #fff;
+        border: 1px solid map-get($theme-colors, light-0);
         bottom: 0;
         right: 0;
     }

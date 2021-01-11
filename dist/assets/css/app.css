@@ -33,7 +33,7 @@ section .section-title:after {
   height: 2px;
   content: "";
   margin: 0.6rem 0 1rem;
-  background-color: #5A8DEE;
+  background-color: #0f3057;
   display: block;
 }
 
@@ -6180,14 +6180,14 @@ readers do not read off random characters that represent icons */
 .avatar .avatar-content {
   width: 32px;
   height: 32px;
-  color: #fff;
+  color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 0.875rem;
 }
 .avatar .avatar-content svg, .avatar .avatar-content i {
-  color: #fff;
+  color: #ffffff;
   font-size: 1rem;
   height: 1rem;
 }
@@ -6201,7 +6201,7 @@ readers do not read off random characters that represent icons */
   height: 0.7rem;
   position: absolute;
   border-radius: 50%;
-  border: 1px solid #fff;
+  border: 1px solid #ffffff;
   bottom: 0;
   right: 0;
 }
@@ -6223,7 +6223,7 @@ readers do not read off random characters that represent icons */
 
 /** 2.8 Dropdowns **/
 .dropdown-toggle:after {
-  color: #fff;
+  color: #ffffff;
 }
 
 .dropdown-menu-large {
@@ -6244,7 +6244,7 @@ readers do not read off random characters that represent icons */
   position: fixed;
   top: 0;
   z-index: 10;
-  background-color: #b6589e;
+  background-color: #0f3057;
   bottom: 0;
   border-right: 1px solid #eee;
   box-shadow: 0 0 10px #ececec;
@@ -6264,7 +6264,7 @@ readers do not read off random characters that represent icons */
   right: 0;
   top: 0.5rem;
   display: none;
-  color: #fff;
+  color: #ffffff;
 }
 .sidebar-wrapper #sidebarMenu {
   padding-left: 0;
@@ -6281,7 +6281,7 @@ readers do not read off random characters that represent icons */
   display: flex;
   align-items: center;
   transition: all 0.5s;
-  color: #ccc;
+  color: #e7e7de;
   opacity: 0.8;
 }
 .sidebar-wrapper #sidebarMenu .nav-item .nav-link > span {
@@ -6290,18 +6290,18 @@ readers do not read off random characters that represent icons */
   flex: 1;
 }
 .sidebar-wrapper #sidebarMenu .nav-item .nav-link:hover {
-  color: #e066b2;
+  color: #008891;
   opacity: 1;
-  background-color: #852780;
+  background-color: #00587a;
 }
 .sidebar-wrapper #sidebarMenu .nav-item .active {
-  background-color: #e8f3ff;
-  color: #e066b2 !important;
+  background-color: #e7e7de;
+  color: #00587a !important;
 }
 .sidebar-wrapper #sidebarMenu .sidebar-heading {
   font-size: 0.8rem;
   font-weight: 600;
-  color: #d9ff01;
+  color: #008891;
   text-transform: uppercase;
 }
 .sidebar-wrapper #sidebarMenu .submenu {
@@ -6313,7 +6313,7 @@ readers do not read off random characters that represent icons */
 .sidebar-wrapper #sidebarMenu .submenu li a {
   padding: 0.3rem 1.3rem;
   display: block;
-  color: #ecebeb;
+  color: #e7e7de;
   font-size: 0.8rem;
   font-weight: 500;
   letter-spacing: 0.5px;
@@ -6347,7 +6347,7 @@ readers do not read off random characters that represent icons */
 .navbar {
   height: 70px;
   padding: 1.5rem;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 .navbar.navbar-header li {
   display: flex;
@@ -6369,7 +6369,7 @@ readers do not read off random characters that represent icons */
   line-height: normal;
 }
 .navbar.navbar-header li.nav-icon .nav-link:hover {
-  background-color: #e1e1e1;
+  background-color: #e7e7de;
 }
 .navbar.navbar-header .navbar-collapse {
   flex: 1;
@@ -6383,7 +6383,7 @@ readers do not read off random characters that represent icons */
   }
 }
 .navbar.navbar-header .dropdown > a {
-  color: #222f3e;
+  color: #00587a;
   font-weight: 600;
 }
 .navbar.navbar-header .dropdown > a:after {
@@ -6423,8 +6423,8 @@ footer .footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #fff;
-  border-top: 1px solid #b8b8b8;
+  background-color: #ffffff;
+  border-top: 1px solid #e7e7de;
   padding: 1rem;
 }
 footer .footer p {

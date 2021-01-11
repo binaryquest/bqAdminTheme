@@ -1,5 +1,5 @@
 .dropdown-toggle:after {
-    color: #fff;
+    color: map-get($theme-colors, light-0);
 }
 .dropdown-menu-large {
     min-width: 16rem;
