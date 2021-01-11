@@ -27,18 +27,16 @@ window.onload = function () {
     document.getElementById('sidebar').classList.remove('active');
   }
 }; //------- search feild hide show-----------
-
-
-window.onload = function toggle(sr) {
-  var search = document.getElementById('search');
-
-  if (search.style.display == 'block') {
-    search.style.display = 'none'; //document.getElementById(sr.id).style = 'fa-search';
-  } else {
-    search.style.display = 'block'; //document.getElementById(sr.id).style = 'fa-times';
-  }
-};
-
-feather.replace();
+// window.onload = function toggle(sr) {
+//     // var search = document.getElementById('search');
+//     // if (search != null) {
+//     //     if (search.style.display == 'block') {
+//     //         search.style.display = 'none';
+//     //     }
+//     //     else {
+//     //         search.style.display = 'block';
+//     //     }
+//     // }
+// }
 /******/ })()
 ;
