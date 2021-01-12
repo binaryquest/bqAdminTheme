@@ -6296,7 +6296,7 @@ readers do not read off random characters that represent icons */
 }
 .sidebar-wrapper #sidebarMenu .nav-item .active {
   background-color: #e7e7de;
-  color: #00587a !important;
+  color: #0f3057 !important;
 }
 .sidebar-wrapper #sidebarMenu .sidebar-heading {
   font-size: 0.8rem;
@@ -6315,12 +6315,14 @@ readers do not read off random characters that represent icons */
   display: block;
   color: #e7e7de;
   font-size: 0.8rem;
-  font-weight: 500;
+  font-weight: normal;
   letter-spacing: 0.5px;
-  transition: all 0.2s;
 }
 .sidebar-wrapper #sidebarMenu .submenu li a:hover {
-  margin-left: 0.3rem;
+  margin-left: none;
+  color: #008891;
+  opacity: 1;
+  background-color: #00587a;
 }
 
 @media screen and (max-width: 767px) {
@@ -6334,8 +6336,6 @@ readers do not read off random characters that represent icons */
 /** 2.13 Navs **/
 .badge {
   position: relative;
-  font-size: 0.65rem;
-  font-weight: 600;
 }
 
 .position-top {
