@@ -8,7 +8,7 @@
 }
 #main {
     margin-left: 260px;
-    background-color: map-get($theme-colors, bg-light);
+    background-color: map-get($bqtheme-colors, page-background);
     min-height: 100vh;
     transition: margin-left .6s ease-out;
     .main-content {

@@ -1,15 +1,22 @@
+$body-bg: #F7FAFF !default;
+
 $theme-colors: (
   'primary': #0f3057,
   'secondary': #00587a,
   'success':#008891,
-  'light': #e7e7de,
-  'bg-light': #F7FAFF,
+  'light': #e7e7de,  
   'link': #2178d1,
   'light-0': #ffffff,
   'warning':#ffc107,
   'danger' : #eb1b30,
   'dark'  :#212529
-);
+) !default;
+
+$bqtheme-colors:(
+  'page-background': $body-bg
+) !default;
+
+
 
 // $theme-colors-light: (
 //   'primary': #E2ECFF,
